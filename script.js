@@ -1,8 +1,9 @@
 const taskList = [];
 let tasks = document.getElementsByClassName("task");
+let ten = document.getElementsByClassName("ten");
 
-for (let i = 0; i < tasks.length; i++){ 
-    taskList.push(tasks[i].innerHTML);
+for (let i = 0; i < ten.length; i++){ 
+    taskList.push(ten[i].innerHTML);
 }
 
 let searchBar = document.getElementById("search-bar");
